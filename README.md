@@ -57,11 +57,12 @@ mv $DST/ne_10m_geography_regions_poly* .datas/countries/polygons
 mv $DST/ne_10m_coastline* .datas/countries/lines
 
 # Lakes
-mv $DST/ne_10m_lakes* .datas/countries/polygons
+mv $DST/ne_10m_lakes* .datas/lakes/polygons
 
 # Rivers
 mv $DST/ne_10m_rivers* .datas/rivers/lines
 
+xhost +
 docker run --rm --name="qgis-desktop-master" -it -w /tmp/ -v /root:/root -v ${HOME}:/home/${USER} -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY=unix$DISPLAY qgis/qgis:release-3_4 qgis
 
 ```
