@@ -1,3 +1,5 @@
 datas
 
+*.qgz
+*.*~
 styles/geofabrik/shp
