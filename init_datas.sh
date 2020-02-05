@@ -43,8 +43,8 @@ done
 
 # Unzip
 for REGION in $REGIONS; do
-    mkdir -p datas/${REGION}
-    test ! -f datas/${REGION}/README && unzip ${TMP_DOWNLOAD}/${REGION}.shp.zip -d datas/${REGION}
+    mkdir -p datas/regions_provinces/${REGION}
+    test ! -f datas/regions_provinces/${REGION}/README && unzip ${TMP_DOWNLOAD}/${REGION}.shp.zip -d datas/regions_provinces/${REGION}
 done
 
 ##########################################################
