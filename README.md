@@ -8,9 +8,19 @@ Styles
 
 ## Screenshot
 
-Geofabrik style
+Ways comparison style
 
-<img width="50%" height="50%" src="./doc/qgis_screenshot.png"/>
+<img width="50%" height="50%" src="./styles/ways_comparison/ways_comparison_reduced.gif"/>
+
+
+Metro style
+
+<img width="50%" height="50%" src="./styles/bike_path_metro/bike_path_metro.jpeg"/>
+
+
+Geofabrik style (champs-libres-qgis-osm-style)
+
+<img width="50%" height="50%" src="./styles/geofabrik/geofabrik.png"/>
 
 
 ## Load or update datas
